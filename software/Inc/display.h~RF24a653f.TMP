@@ -1,0 +1,11 @@
+#ifndef __DISPLAY_H__
+#define __DISPLAY_H__
+
+extern char rollFlag;
+
+extern void displayString(char startIndex, const char* string, const uint8_t clear, const uint8_t resv);
+extern void displaySetRoll(char startIndex, const char* string, const int rollTime);
+extern void displaySetBuff(char index, const char data);
+extern void displayCheck();
+
+#endif 
